@@ -1,0 +1,129 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.bodyContainer {
+    max-width: 80%;
+    margin: 0 auto;
+    position: relative;
+    color: rgb(0, 0, 0);
+    background-color: rgb(240, 217, 217);
+}
+
+.mainHeader {
+    color: rgb(218, 65, 96);
+    max-width: 100%;
+    margin: 50px auto;
+    text-align: center;
+    font: bold normal 35px/1.6 "EB Garamond", sans-serif;
+}
+
+.darkTheme {
+    background-color: rgb(60,60,60);
+}
+
+.mainSection {
+    max-width: 80%;
+    min-height: auto;
+    background-color: rgb(219, 191, 245);
+    border-radius: 10px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 20px rgb(219 191 245);
+    position: relative;
+    padding: 30px;
+}
+
+.mainSection__section_paragraph {
+    max-width: 800px;
+    color: black;
+    font: 500 normal 18px/1.6 "EB Garamond", sans-serif;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 0;
+}
+
+.mainSection__section__sectionHeader {
+    color: rgb(218, 65, 96);
+    font: 600 normal 30px/2 "EB Garamond", sans-serif;
+}
+.mainSection__section{
+    color: rgb(218, 65, 96);
+    background-color: rgb(255, 209, 248);
+    box-shadow: 0px 0px 10px 20px rgb(255 209 248);
+    border-radius: 20px;
+    max-width: 80%;
+    min-height: 350px;
+    margin: 80px auto;
+    text-align: center;
+    line-height: 2.5;
+}
+
+.websiteName {
+    font: bold normal 40px/1.6 "EB Garamond", sans-serif;
+    max-width: 200px;
+    color: rgb(218, 65, 96);
+    margin: 40px auto;
+    text-align: center;
+}
+
+.footer__copyRightsymbol {
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.mainSection__section__listItem {
+    margin: 10px 0;
+}
+
+.mainSection__section__list {
+    font: 500 normal 18px/1.6 "EB Garamond", sans-serif;
+    color: black;
+    padding-left: 20px;
+    list-style-type: disc;
+    list-style-position: inside;
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: start;
+}
+
+.footer {
+    font: 600 normal 20px/1.6 "EB Garamond", sans-serif;
+    background-color: rgb(219, 191, 245);
+    min-height: 70px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 20px rgb(219 191 245);
+    margin: 60px auto 40px;
+    line-height: 70px;
+    max-width: 80%;
+}
+
+.img {
+    box-shadow: 0px 0px 30px 10px rgb(154, 121, 185);
+    margin: 10px 25px;
+}
+
+.pageUp {
+    outline: 2px solid black;
+    outline-offset: 2px;
+    opacity: 0.5;
+    border-radius: 20px;
+    position: fixed;
+    right: 55px;
+    bottom: 55px;
+}
+
+.pageUp:hover {
+    opacity: 0.8;
+    transition: .7s;
+}
+
+.img:hover {
+    opacity: 0.7;
+}

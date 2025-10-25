@@ -1,0 +1,49 @@
+
+.mainSection__buttonThemecontainer {
+    width: 80px;
+    height: 45px;
+    background-color: rgb(247, 201, 240);
+    border: 2px solid rgb(250, 143, 205);
+    border-radius: 15px;
+    position: absolute;
+    right: 15px;
+    top: 0px;
+}
+
+.mainSection__buttonThemecontainer__rangeChangepositionContainer {
+    width: 69px;
+    height: 34px;
+    background-color: rgb(60,60,60);
+    border-radius: 20px;
+    position: relative;
+    top: 3.5px;
+    left: 3.5px;
+}
+
+.mainSection__buttonThemecontainer__buttonLightmode {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(240, 217, 217);
+    border: 3px solid rgb(250, 143, 205);
+    border-radius: 20px;
+    position: absolute;
+    left: -1px;
+    top: -0.5px;
+}
+
+.mainSection__buttonThemecontainer__buttonLightmode:hover {
+    opacity: 0.7;
+}
+
+.mainSection__buttonThemecontainer__buttonLightmode__icon {
+    position: relative;
+    right: 3.8px;
+    top: 1px;
+}
+
+.mainSection__buttonThemecontainer__buttonDarkmode {
+    background-color: rgb(60,60,60);
+    position: absolute;
+    left: 35px;
+    top: -0.5px;
+}
