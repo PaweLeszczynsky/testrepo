@@ -1,9 +1,9 @@
 # Mieszcat
 ## Preview
 
-![PreviewSS](https://github.com/PaweLeszczynsky/firstcommit/blob/main/images/preview.png?raw=true)
+![PreviewSS](https://github.com/PaweLeszczynsky/testrepo/blob/master/images/preview.png)
 
-Link to website [Mieszcat](https://paweleszczynsky.github.io/homepage/)
+Link to website [Mieszcat](https://paweleszczynsky.github.io/testrepo/)
 
 ## Description website
 The website presents a cat named Mieszko. There is navigation with three sections:
@@ -18,4 +18,4 @@ Website has many interactions:
 - back to top of website using right-bottom corner button
 - change the background color of the website - light/dark mode
 
-![DarkmodeSS](https://github.com/PaweLeszczynsky/firstcommit/blob/main/images/darkmode-preview.png?raw=true)
+![DarkmodeSS](https://github.com/PaweLeszczynsky/testrepo/blob/master/images/darkmode-preview.png)
